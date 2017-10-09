@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142660064230",
+    "firebase_url": "https://potholereportingapp-974ed.firebaseio.com",
+    "project_id": "potholereportingapp-974ed",
+    "storage_bucket": "potholereportingapp-974ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142660064230:android:d858183124535531",
+        "android_client_info": {
+          "package_name": "com.example.user.potholereportingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142660064230-ocasspho4kamg8lduqllut42lf43n8hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.potholereportingapp",
+            "certificate_hash": "2b86e205511efba7196a0a09adc4983a1b39752d"
+          }
+        },
+        {
+          "client_id": "142660064230-6avm7ro33sf8v6as7auljk98oe6ondt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6X5TNR2p1gc_c13s1Z3TKMhnPSYq6X3A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142660064230-6avm7ro33sf8v6as7auljk98oe6ondt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

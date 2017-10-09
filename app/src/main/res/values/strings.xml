@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pothole Reporting App</string>
+    <string name="post_road_goes_here">Post Road Goes Here</string>
+    <string name="the_post_goes_here">The Post Goes Here</string>
+    <string name="title_activity_home">Pothole Reporter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

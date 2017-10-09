@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="302dp"
+        android:id="@+id/post_image"
+        android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:adjustViewBounds="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_title"
+        android:text="Post Road Goes Here"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/post_image"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_desc"
+        android:text="The Post Goes Here"
+        android:layout_below="@+id/post_title"
+        android:padding="5dp"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_username"
+        android:text="username"
+        android:layout_below="@+id/post_desc"
+        android:padding="5dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/like_white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/like_btn"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="latitude"
+        android:id="@+id/textLatitude"
+        android:visibility="invisible"
+        android:padding="5dp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="latitude"
+        android:id="@+id/textLongitude"
+
+        android:padding="5dp"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

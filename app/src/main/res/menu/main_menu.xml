@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add"
+        android:icon="@mipmap/add_camera_48px"
+        android:title="Add Post"
+        app:showAsAction="always"/>
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/map1"
+            android:title="Mapped Potholes"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/home"
+            android:title="Home Page"
+            app:showAsAction="never"/>
+
+
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Help and Settings" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/policy"
+            android:title="Policies and Licenses" />
+        <item android:id="@+id/action_logout"
+            android:title="Logout"
+            app:showAsAction="never"/>
+
+    </group>
+
+
+
+</menu>
